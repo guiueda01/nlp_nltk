@@ -51,5 +51,3 @@ if st.button("Analisar Sentimento"):
     st.caption(f"Texto traduzido para análise: *\"{texto_en}\"*")
     st.write(f'TOKENIZAÇÃO - ,  {fat}')
     st.warning(f'STOP WORDS -, {palavras_uteis}')
-
-s
