@@ -12,6 +12,8 @@ from nltk.corpus import stopwords
 # Garante o download do dicionário VADER
 nltk.download('vader_lexicon', quiet=True)
 nltk.download('punkt_tab', quiet=False)
+nltk.download('stopwords', quiet=True)
+
 
 nlp = spacy.load("pt_core_news_sm")
 
